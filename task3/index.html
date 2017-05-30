@@ -1,77 +1,182 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Детска градина</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <div class="heading">
-    <div class="jumbotron text-center">
-      <h1>Детска градина "Калпазани"</h1>
-    </div>
-  </div>
-  <div class="container">
-    <div class="col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Детска градина</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-      <form name="filters" class="form-inline">
-        <input class="form-control" placeholder="Филтрирай по име, храна или любима игра">
-        <button class="btn btn-primary">Пордеди по име</button>
-        <button class="btn btn-success">Пордеди по възраст</button>
-      </form>
-
-      <h2>Запознайте се с нашите малки калпазани:</h2>
-
-      <div id="kids">
-        <div class="kid">
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <h3>Дейвид</h3>
+    <body>
+        <div class="heading">
+            <div class="jumbotron text-center">
+                <h1>Детска градина "Калпазани"</h1>
             </div>
-            <div class="panel-body">
-              <div class="col-sm-4">
-                <img class="img-responsive" src="img/david.png">
-              </div>
-              <div class="col-sm-8">
-                <ul>
-                  <li><h5>Години: 4</h5></li>
-                  <li><h5>Любим цвят: зелен</h5></li>
-                  <li><h5>Любима игра: LEGO</h5></li>
-                  <li><h5>Любима храна: сладолед</h5></li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="kid">
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <h3>Сюзан</h3>
-            </div>
-            <div class="panel-body">
-              <div class="col-sm-4">
-                <img class="img-responsive" src="img/susan.jpg">
-              </div>
-              <div class="col-sm-8">
-                <ul>
-                  <li><h5>Години: 4</h5></li>
-                  <li><h5>Любим цвят: син</h5></li>
-                  <li><h5>Любима игра: кукла Барби</h5></li>
-                  <li><h5>Любима храна: крем карамел</h5></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <div class="container">
+            <div class="col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2">
 
-  <script src="js/script.js"></script>
-</body>
+                <form name="filters" class="form-inline">
+                    <input class="form-control" placeholder="Филтрирай по име, храна или любима игра">
+                    <button class="btn btn-primary">Пордеди по име</button>
+                    <button class="btn btn-success">Пордеди по възраст</button>
+                </form>
+
+                <h2>Запознайте се с нашите малки калпазани:</h2>
+
+                <div id="kids">
+                    <div class="kid">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3>Дейвид</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-sm-4">
+                                    <img class="img-responsive" src="img/david.png">
+                                </div>
+                                <div class="col-sm-8">
+                                    <ul>
+                                        <li>
+                                            <h5>Години: 4</h5></li>
+                                        <li>
+                                            <h5>Любим цвят: зелен</h5></li>
+                                        <li>
+                                            <h5>Любима игра: LEGO</h5></li>
+                                        <li>
+                                            <h5>Любима храна: сладолед</h5></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kid">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3>Сюзан</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-sm-4">
+                                    <img class="img-responsive" src="img/susan.jpg">
+                                </div>
+                                <div class="col-sm-8">
+                                    <ul>
+                                        <li>
+                                            <h5>Години: 4</h5></li>
+                                        <li>
+                                            <h5>Любим цвят: син</h5></li>
+                                        <li>
+                                            <h5>Любима игра: кукла Барби</h5></li>
+                                        <li>
+                                            <h5>Любима храна: крем карамел</h5></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kid">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3>Брайън</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-sm-4">
+                                    <img class="img-responsive" src="img/brian.jpg">
+                                </div>
+                                <div class="col-sm-8">
+                                    <ul>
+                                        <li>
+                                            <h5>Години: 6</h5></li>
+                                        <li>
+                                            <h5>Любим цвят: лилаво</h5></li>
+                                        <li>
+                                            <h5>Любима игра: футбол</h5></li>
+                                        <li>
+                                            <h5>Любима храна: хот дог </h5></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kid">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3>Ашли</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-sm-4">
+                                    <img class="img-responsive" src="img/ashley.jpg">
+                                </div>
+                                <div class="col-sm-8">
+                                    <ul>
+                                        <li>
+                                            <h5>Години: 3</h5></li>
+                                        <li>
+                                            <h5>Любим цвят: розово</h5></li>
+                                        <li>
+                                            <h5>Любима игра: кукли</h5></li>
+                                        <li>
+                                            <h5>Любима храна: пуканки</h5></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kid">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3>Ема</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-sm-4">
+                                    <img class="img-responsive" src="img/ema.jpg">
+                                </div>
+                                <div class="col-sm-8">
+                                    <ul>
+                                        <li>
+                                            <h5>Години: 5</h5></li>
+                                        <li>
+                                            <h5>Любим цвят: оранжево</h5></li>
+                                        <li>
+                                            <h5>Любима игра: криеница</h5></li>
+                                        <li>
+                                            <h5>Любима храна: торта</h5></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kid">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3>Том</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-sm-4">
+                                    <img class="img-responsive" src="img/tom.png">
+                                </div>
+                                <div class="col-sm-8">
+                                    <ul>
+                                        <li>
+                                            <h5>Години: 5</h5></li>
+                                        <li>
+                                            <h5>Любим цвят: червено</h5></li>
+                                        <li>
+                                            <h5>Любима игра: фризби</h5></li>
+                                        <li>
+                                            <h5>Любима храна: ябълки</h5></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+        <script src="js/script.js"></script>
+    </body>
 
 </html>

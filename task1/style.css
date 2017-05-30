@@ -39,3 +39,36 @@ ul > li img {
 }
 
 /* Вашият CSS от тук надолу */
+
+li img {
+    width: 100%
+}
+@media screen and (min-width:600px) and (max-width:999px) {
+    ul li {
+        width: calc(100%/3);
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:599px) {
+    ul li {
+        width: calc(100%/2);
+    }
+}
+
+@media screen and (max-width:399px) {
+    ul li {
+        width: 100%;
+    }
+}
+ul li:nth-child(2n) {
+    background-color: lightblue;
+}
+
+ul li {
+    transition: all 1s ease-in-out;
+}
+
+ul li:hover {
+    transform: rotateX(180deg);
+    background-color: lightblue;
+}
